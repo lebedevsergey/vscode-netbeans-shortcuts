@@ -1,4 +1,14 @@
+// Place your key bindings in this file to override the defaultsauto[]
 [
+    {
+        "key": "ctrl+b",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    }, 
+    {
+        "key": "alt+backspace",
+        "command": "workbench.action.navigateBack"
+    },
     {
         "key": "alt+shift+f",
         "command": "editor.action.format",
